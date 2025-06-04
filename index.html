@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel & Tour Website</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo">Travel</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tours">Tours</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle">&#9776;</button>
+      </nav>
+      <div class="header-content">
+        <h1 class="animate__animated animate__fadeInDown">Cicurug Pariwisata</h1>
+        <p class="animate__animated animate__fadeInUp">
+          Discover amazing places with us
+        </p>
+        <a href="#" class="btn animate__animated animate__pulse">Get Started</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about" data-aos="fade-right">
+      <div class="about-content">
+        <h2>About Us</h2>
+        <p>
+          We offer the best tour packages and travel experiences for your holidays.
+        </p>
+        <!-- Tombol Learn More diarahkan ke #about-detail -->
+        <a href="#about-detail" class="btn">Learn More</a>
+      </div>
+      <div class="about-img">
+        <img src="_.jpeg" alt="About Us" />
+      </div>
+    </section>
+
+    <!-- Bagian Detail About Us -->
+    <section
+      id="about-detail"
+      data-aos="fade-left"
+      style="padding: 40px 10%; background:#f9f9f9;"
+    >
+      <h2>More About Us</h2>
+      <p>
+        Kami adalah perusahaan pariwisata yang berfokus pada pengalaman terbaik
+        untuk pelanggan kami. Kami menyediakan paket wisata lengkap dengan
+        panduan profesional, akomodasi nyaman, dan layanan transportasi yang
+        handal. Komitmen kami adalah membuat liburan Anda tak terlupakan dengan
+        pelayanan terbaik dan harga bersaing.
+        <link a href="https://www.idntimes.com/travel/destination/diki-setiadi-permana/info-wisata-kawah-ratu-gunung-salak-c1c2">
+      </p>
+      <p>
+        kami memahami kebutuhan dan keinginan setiap wisatawan. Tim kami siap
+        membantu Anda merancang perjalanan yang sesuai dengan preferensi dan
+        anggaran Anda.
+      </p>
+    </section>
+
+    <!-- Tours Section -->
+    <section class="tours" id="tours">
+      <h2>Popular Tours</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="tour-card">
+              <img src="kawah ratu.jpg" alt="Tour 1" />
+              <h3>Kawah Ratu</h3>
+              <p>Nikmati keindahan Kawah Ratu dengan paket wisata eksklusif kami.</p>
+              <button class="btn baca-sekarang-btn">baca sekarang</button>
+              <div class="article-text">
+                <p>
+                  Kawah Ratu adalah salah satu destinasi wisata alam yang menakjubkan dengan pemandangan kawah yang spektakuler dan udara yang sejuk. Paket wisata kami mencakup pendampingan guide profesional, transportasi, dan akomodasi nyaman.
+                </p>
+                <p>Untuk informasi lebih lanjut, kunjungi situs web berikut 
+                  <a href="https://www.idntimes.com/travel/destination/diki-setiadi-permana/info-wisata-kawah-ratu-gunung-salak-c1c2" target="_blank">info wisata kawah ratu</a>
+                </p>                  
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="tour-card">
+              <img src="masjid-perahu-di-sukabumi-2.jpeg" alt="Tour 2" />
+              <h3>Masjid Perahu</h3>
+              <p>Rasakan keunikan Masjid Perahu bersama tur kami.</p>
+              <button class="btn baca-sekarang-btn">baca sekarang</button>
+              <div class="article-text">
+                <p>
+                  Masjid Perahu adalah masjid unik yang berbentuk seperti perahu di Sukabumi. Tur kami menawarkan pengalaman spiritual dan budaya yang mendalam dengan pemandu berpengalaman.
+                </p>
+                <p>Untuk informasi lebih lanjut, kunjungi situs web berikut 
+                  <a href="https://www.sukabumiupdate.com/food-travel/153017/masjid-perahu-cicurug-wisata-rekreasi-keluarga-di-sukabumi-hanya-1-jam-dari-kota-jakarta" target="_blank">info wisata masjid perahu / ungu</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="tour-card">
+              <img src="situgunung.webp" alt="Tour 3" />
+              <h3>Situ Gunung</h3>
+              <p>Bersantailah dan nikmati keindahan pemandangan Situ Gunung.</p>
+              <button class="btn baca-sekarang-btn">baca sekarang</button>
+              <div class="article-text">
+                <p>
+                  Situ Gunung adalah tempat rekreasi alam dengan danau yang indah dan udara segar. Paket wisata kami termasuk aktivitas outbound dan piknik bersama keluarga.
+                </p>
+                <p>Untuk informasi lebih lanjut, kunjungi situs web berikut 
+                  <a href="https://www.detik.com/jabar/wisata/d-6309489/wisata-situ-gunung-sukabumi-rute-fasilitas-dan-harga-tiket" target="_blank">info wisata situ gunung</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" data-aos="fade-up">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Travel & Tour .</p>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+      const preloader = document.getElementById("preloader");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+
+      window.addEventListener("load", function () {
+        preloader.style.display = "none";
+      });
+
+      AOS.init();
+
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+
+      // Script untuk tombol "baca sekarang"
+      const bacaButtons = document.querySelectorAll(".baca-sekarang-btn");
+      bacaButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const articleText= btn.nextElementSibling;
+          if (articleText.style.display === "block") {
+            articleText.style.display = "none";
+            btn.textContent = "baca sekarang";
+          } else {
+            articleText.style.display = "block";
+            btn.textContent = "tutup";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
